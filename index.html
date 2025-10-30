@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Logo 3D Nodata</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background-color: transparent;
+      overflow: hidden;
+    }
+    model-viewer {
+      width: 100%;
+      height: 100%;
+      --poster-color: transparent;
+      background-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer
+    src="https://static.wixstatic.com/3d/5559d0_bb8053bc40af4bcc88f58f1605e7bece.glb"
+    alt="Logo 3D Nodata"
+    auto-rotate
+    camera-controls
+    camera-orbit="0deg 85deg 3m"
+    shadow-intensity="0.9"
+    exposure="0.9"
+    environment-image="https://modelviewer.dev/shared-assets/environments/studio_small_08_1k.hdr"
+    style="background-color: transparent;">
+  </model-viewer>
+</body>
+</html>
