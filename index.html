@@ -25,23 +25,22 @@
 </head>
 <body>
   <model-viewer
-  src="https://rafamello1981.github.io/logo3d/nodata_final.glb"
+  src="https://rafamello1981.github.io/logo3d/nodata_solar.glb"
   alt="Logo 3D Nodata"
+  camera-controls
+  disable-zoom
   auto-rotate
   rotation-per-second="10deg"
-  camera-controls="false"
-  disable-zoom
-  shadow-intensity="0.6"
-  exposure="0.9"
-  environment-image="neutral"
-  camera-orbit="0deg 75deg 8m"
-  field-of-view="20deg"
-  min-camera-orbit="auto auto 10m"
-  max-camera-orbit="auto auto 10m"
-  style="background-color: transparent;"
-  reveal="auto"
-  poster="data:,">
-</model-viewer>
+  exposure="1.1"
+  shadow-intensity="1"
+  shadow-softness="0.9"
+  environment-image="https://modelviewer.dev/shared-assets/environments/studio_small_03_1k.hdr"
+  style="width:100%;height:100%;background-color:transparent;"
+  skybox-image=""
+  light-intensity="1.4"
+  shadow-direction="45deg"
+  camera-orbit="0deg 75deg 2.5m"
+></model-viewer>
 
 </body>
 </html>
